@@ -1,14 +1,14 @@
-# hexo-generator-index-pin-top
+# hexo-generator-index-updated
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-generator-index.svg?branch=master)](https://travis-ci.org/hexojs/hexo-generator-index)  [![NPM version](https://badge.fury.io/js/hexo-generator-index.svg)](http://badge.fury.io/js/hexo-generator-index) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-generator-index.svg)](https://coveralls.io/r/hexojs/hexo-generator-index?branch=master)
 
-Index generator for [Hexo]. Pin top version
+Index generator for [Hexo]. top updated
 
 ## Installation
 
 ``` bash
 $ npm uninstall hexo-generator-index --save
-$ npm install hexo-generator-index-pin-top --save
+$ npm install hexo-generator-index-updated --save
 ```
 
 ## Feautres
@@ -26,7 +26,7 @@ index_generator:
 
 - **path**: Root path for your blogs index page. (default = '')
 - **per_page**: Posts displayed per page. (0 = disable pagination)
-- **order_by**: Posts order. (Order by date descending by default)
+- **order_by**: Posts order. (Order by `updated` descending by default)
 
 ## License
 
