@@ -26,7 +26,7 @@ index_generator:
 
 - **path**: Root path for your blogs index page. (default = '')
 - **per_page**: Posts displayed per page. (0 = disable pagination)
-- **order_by**: Posts order. (Order by `updated` descending by default)
+- **order_by**: Posts order. (Order by `-updated` or `-date`)
 
 ## License
 
